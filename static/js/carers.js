@@ -1,5 +1,5 @@
-const baseUrl = "http://localhost:3000/"
-const baseClientUrl = "http://localhost:8080/"
+const baseUrl = "http://indeebackend-env.eba-5pvithgn.us-east-1.elasticbeanstalk.com/"
+const baseClientUrl = "https://indee.netlify.app/"
 
 const logo = document.getElementById("logo")
 logo.addEventListener("click", () => {

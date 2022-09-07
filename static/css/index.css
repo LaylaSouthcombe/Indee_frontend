@@ -350,6 +350,15 @@ main {
     .infoTextLeft {
         margin-left: 60px;
     }
+    main {
+        grid-template-rows: 50% 50%;
+    }
+    .introImg {
+        margin-top: 20px;
+    }
+    .intro > p {
+        padding-top: 35px;
+    }
 }
 @media (min-width: 1200px) {
     .infoTextRight,
