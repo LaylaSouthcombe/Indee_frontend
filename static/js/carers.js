@@ -233,7 +233,7 @@ const createWeekGraph = (chartName, appendedElement, data, title, axisDisplay, a
                     display: false
                 },
                 datalabels: {
-                    color: '#d9d9d9',
+                    color: 'rgba(43, 43, 43, 0.9)',
                     anchor: 'end',
                     align: 'top',
                     formatter: function(value) {

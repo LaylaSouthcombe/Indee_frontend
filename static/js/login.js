@@ -96,10 +96,13 @@ const sendLogin = async (e) => {
 
 async function sendRegister(e) {
   e.preventDefault()
-  const fname = registerFname.value
-  const sname = registerSname.value
-  const email = registerEmail.value
-  const password = registerPassword.value
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+  const fname = capitalizeFirstLetter(registerFname.value)
+  const sname = capitalizeFirstLetter(registerSname.value)
+  const email = capitalizeFirstLetter(registerEmail.value)
+  const password = capitalizeFirstLetter(registerPassword.value)
 
   if(!email.includes("@")){
     errorPopUp.className = "regEmailError errorMsg"
