@@ -1,4 +1,4 @@
-const baseUrl = "https://cors-everywhere.herokuapp.com/http://indeebackend-env.eba-5pvithgn.us-east-1.elasticbeanstalk.com/"
+const baseUrl = "https://indee-habit-tracker.herokuapp.com/"
 const baseClientUrl = "https://indee.netlify.app/"
 const habitsWrapper = document.querySelector(".habitsWrapper")
 
