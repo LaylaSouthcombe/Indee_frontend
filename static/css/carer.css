@@ -56,6 +56,7 @@ main {
 
 .userToplineSummary > p:nth-child(1){
     margin-right: auto;
+    margin-left: 10px;
 }
 
 .userToplineSummary > div {
@@ -614,20 +615,30 @@ canvas {
         max-width: 200px;
         font-size: 1.25rem;
     }
-    
     .usersWrapper {
         max-width: 400px;
     }
+    .userToplineSummary > p:nth-child(2){
+        margin-left: 20px;
+        width: 15%;
+    }
+    
+    .userToplineSummary > p:nth-child(2)::after{
+        content: "%";
+    }
+    
+    .userToplineSummary > p {
+        font-size: 1.15rem;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+    }
     
     .userToplineSummary > div {
-        margin-left: 110px;
+        margin-left: 80px;
         font-size: 1.65rem;
     }
     #carerPageH2 {
         font-size: 1.8rem;
-    }
-    .userToplineSummary > p {
-        font-size: 1.35rem;
     }
     
     .moreUserIcon {

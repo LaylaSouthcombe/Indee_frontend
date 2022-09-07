@@ -1,5 +1,6 @@
 const baseUrl = "https://indee-habit-tracker.herokuapp.com/"
 const baseClientUrl = "https://indee.netlify.app/"
+
 const habitsWrapper = document.querySelector(".habitsWrapper")
 
 const logo = document.getElementById("logo")
