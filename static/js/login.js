@@ -1,4 +1,4 @@
-const baseUrl = "http://indeebackend-env.eba-5pvithgn.us-east-1.elasticbeanstalk.com/"
+const baseUrl = "https://cors-everywhere.herokuapp.com/http://indeebackend-env.eba-5pvithgn.us-east-1.elasticbeanstalk.com/"
 const baseClientUrl = "https://indee.netlify.app/"
 
 
